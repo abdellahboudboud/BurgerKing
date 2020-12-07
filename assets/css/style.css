@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --main-font:'Montserrat', sans-serif;
+    --orange-color:#FFB039;
+    --darkOrange-color:#FF9900;
+    --lightOrange-color:#FFF3E1;
+    --red-color:#ED1C23;
+    --green-color:#038D00;
+    --black-color:#000;
+    --white-color:#fff;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    color:var(--black-color);
+    background-color: var(--white-color);
+}
+ul{
+    list-style-type: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    width:60%;
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    text-align: justify;
+    color:var(--black-color);
+    text-shadow: 0px 0px 2px rgb(128, 127, 127);
+}
+/* navbar */
+.logo{
+    width:50px;
+    
+}
+.nav-link{
+    color:var(--black-color);
+    font-family: var(--main-font);
+    font-size:14px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    margin:0 15px;
+}
+.nav-link::after{
+    content: '';
+    width:100%;
+    height: 2px;
+    border-radius: 3px;
+    position: absolute;
+    background-color:var(--red-color) ;
+    bottom:0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: .5s;
+}
+.nav-link:hover{
+    color:var(--black-color);
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+}
+
+/* header */
+header{
+    
+    background-image: linear-gradient(90deg,var(--white-color) 50%,var(--orange-color) 50%);
+}
+.container{
+    padding-top:70px;
+}
+
+.header-content{
+    margin: 50px 0;
+}
+.header-content h1{
+    font-size: 90px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color:var(--black-color);
+    text-shadow: 0px 0px 2px rgb(146, 146, 146);
+    text-align: left;
+}
+.header-content h4{
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: 800;
+    color:var(--black-color);
+    text-shadow: 0px 0px 2px rgb(146, 146, 146);
+}
+.header-content h4 span{
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: 800;
+    color:var(--red-color);
+    text-shadow: 0px 0px 2px rgb(146, 146, 146);
+}
+.header-content p{
+    width:60%;
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    text-align: justify;
+    color:var(--black-color);
+    text-shadow: 0px 0px 2px rgb(128, 127, 127);
+}
+.btn-red{
+    box-shadow: 0px 1px 5px 0px rgb(143, 143, 143);
+    background-color:var(--red-color);
+    border-radius: 25px;
+    padding:7px 25px;
+    transition:.5s;
+}
+.btn-red:hover{
+    box-shadow: 0px 2px 5px 0px rgb(105, 105, 105);
+}
+.btn-red span{
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color:var(--white-color);
+    text-shadow: 0px 0px 2px rgb(85, 85, 85);
+}
+.header-image{
+    position: relative;
+}
+.header-image .img-burger{
+    width:100%;
+}
+.header-image .img-fries1{
+    position:absolute;
+    width:30%;
+    left:0;
+    bottom:0;
+}
+.header-image .img-fries2{
+    position:absolute;
+    width:30%;
+    bottom:20px;
+    left:-80px;
+    transform:rotate(-8deg)
+}
+.header-image h1{
+    font-weight: 120px;
+    font-weight: 800;
+    font-family: var(--main-font);
+    color:var(--red-color);
+    position: absolute;
+    bottom:160px;
+    left:30px;
+}
+
+
+
+/* Delivary */
+.delivary{
+    background-color: var(--lightOrange-color);
+    padding-bottom: 60px;
+}
+.delivary-content{
+    width:100%;
+}
+.delivary-content h1{
+    font-weight: 900;
+    font-family: var(--main-font);
+    font-size:45px;
+    text-transform: uppercase;
+}
+.btn-green{
+    box-shadow: 0px 1px 5px 0px rgb(143, 143, 143);
+    background-color:var(--green-color);
+    border-radius: 25px;
+    padding:7px 25px;
+    transition:.5s;
+    text-transform: uppercase;
+}
+.btn-green:hover{
+    box-shadow: 0px 2px 5px 0px rgb(105, 105, 105);
+}
+.btn-green span{
+    font-size: 14px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color:var(--white-color);
+    text-shadow: 0px 0px 2px rgb(85, 85, 85);
+}
+
+.img-delivary{
+    width:80%;
+    padding:50px auto;
+    transform: scaleX(-1);
+}
+
+
+
+
+
+
