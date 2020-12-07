@@ -12,35 +12,34 @@
 
     <!-- header -->
 
-    <header>
+    <header id="home">
 
 
     <!-- navbar -->
-
-        <nav class="navbar navbar-expand-lg">
-            <a href="#home" class="navbar-brand"><img class="logo" src="images/burger king.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Special</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                </ul>
-              </div>
-
-        </nav>
-    
+        
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#home" class="navbar-brand"><img class="logo" src="images/burger king.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#delivery">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+      
         <!-- jumbotron -->
     
         <div class="container">
@@ -69,7 +68,7 @@
 
     <!-- delivary -->
 
-    <section class="delivary">
+    <section class="delivary" id="delivery">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6 delivary-content">
@@ -83,6 +82,120 @@
             </div>
         </div>
     </section>
+
+    <!-- Menu -->
+    <section class="Menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <h1 class="mx-auto">Menu</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <div class="item">
+                        <img src="images/Burger-Png.png">
+                        <h3>Toasty Buns Burgers</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 12.79</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <div class="item">
+                        <img src="images/burger1.png">
+                        <h3>Bacon Burger</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 6.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3  mx-auto">
+                    <div class="item">
+                        <img src="images/burger2.png">
+                        <h3>The Burger House</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 5.00</span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <div class="item">
+                        <img src="images/burger3.png">
+                        <h3>BLT Chicken Burgers</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 14.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <div class="item">
+                        <img src="images/burger2.png">
+                        <h3>The Burger Barn</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 9.00</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <div class="item">
+                        <img src="images/bacon-burger.png">
+                        <h3>The Burger House</h3>
+                        <a href="#" class="btn-orange"><span>Add to Cart</span></a>
+                        <span class="price">$ 7.00</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row">
+                <a href="#" class="btn-orange mx-auto"><span><i class="fas fa-chevron-down"></i> See More</span></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h1>Best quality<br>intgredients</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet distinctio explicabo placeat autem sequi saepe. Quasi ipsa mollitia nulla.</p>
+                        <a href="#" class="btn-green"><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div >
+                        <img class="about-img" src="images/burger flying.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footer-socialmedia mx-auto">
+                    <img src="images/burger king.png" alt="">
+                    <h1>Follow <span>us</span></h1>
+                    <div class="social-media">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 footer-newsletter">
+                    <h1>News<span>Letter</span></h1>
+                    <p>get <span>10 OFF</span> coupon</p>
+
+                    <form>
+                        <input type="text" class="txtemail" placeholder="enter your email">
+                        <button type="submit" name="send" class="submit"><span class="fas fa-paper-plane"></span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
